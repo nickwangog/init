@@ -1,2 +1,2 @@
 #!/bin/bash
-ifconfig en1 | grep ether
+ifconfig en1 | grep ether | cut -c 2-

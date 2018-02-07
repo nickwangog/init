@@ -1,1 +1,2 @@
-diskutil info "volume name"
+#!/bin/bash
+traceroute -m13 slah16.org
