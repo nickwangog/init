@@ -1,0 +1,11 @@
+nslookup 42.fr 8.8.8.8 it returns
+Server:		8.8.8.8
+Address:	8.8.8.8#53
+
+Non-authoritative answer:
+Name:	42.fr
+Address: 163.172.250.11
+Name:	42.fr
+Address: 163.172.250.12
+
+which is different nslookup slash16.org 8.8.8.8. 

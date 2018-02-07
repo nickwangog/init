@@ -1,0 +1,2 @@
+#!/bin/bash
+netstat -nr Internet | grep  default | head -1
