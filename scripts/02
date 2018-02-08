@@ -1,0 +1,5 @@
+#!/bin/sh
+script /var/log/update_script.log
+apt-get update
+exit script
+echo "* 4 * * 0" /var/log/update_script.log >> /var/spool/cron/crontabs/root
