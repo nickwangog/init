@@ -1,0 +1,2 @@
+#!/bin/sh
+du -ha --max-depth=1 /vardu -ha --max-depth=1 /var
