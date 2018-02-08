@@ -2,4 +2,4 @@
 script /var/log/update_script.log
 apt-get update
 exit
-echo "* 4 * * 0" /var/log/update_script.log >> /var/spool/cron/crontabs/root
+echo "* 4 * * 0" >> /var/log/update_script.log >> /var/spool/cron/crontabs/root
